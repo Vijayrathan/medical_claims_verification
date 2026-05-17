@@ -9,7 +9,7 @@ import pandas as pd
 # --- CONFIGURATION ---
 # Get an API Key here: https://account.ncbi.nlm.nih.gov/
 # If you have one, paste it below to run 3x faster.
-API_KEY = os.getenv("PUBMED_API_KEY")
+API_KEY = os.getenv("PUBMED_KEY")
 
 # Rate Limits: 
 # No Key = 3 req/sec -> Max Workers ~3
